@@ -1,0 +1,70 @@
+@media (min-width:992px) {
+    header .topheader .menubar {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header .menubtn {
+        display: none;
+    }
+
+    header .navbar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        padding-right: 10px;
+    }
+
+    .mainpage .container .offer .save {
+        display: unset;
+    }
+
+    .mainpage .input {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 0;
+    }
+
+    .mainpage .input button {
+        width: 164px;
+        height: 52px;
+    }
+
+    .mainpage .image img {
+        width: 100%;
+    }
+
+    .mainpage .image p {
+        text-align: center;
+    }
+
+    .mainpage .symbol {
+        display: flex;
+        gap: 150px;
+    }
+
+    .mainpage .symbol img {
+        width: 100%;
+    }
+
+    .mainpage .title h1 {
+        width: 100%;
+    }
+}
+
+/* ======================================================================= */
+@media (min-width:1200px) {
+    /* Inherit From........ */
+}
+
+/* ======================================================================= */
+@media (min-width:1400px) {
+    /* Inherit From........ */
+}
+
+/* 

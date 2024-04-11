@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .navbar {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu ul li a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #35414B;
+}
+
+.menu ul li a span.fa {
+    font-size: 13px;
+}
+
+header .navbar .login {
+    color: #35414B;
+}
+
+.loginSignup .getstarted {
+    padding: 10px 20px;
+    color: #794CFF;
+    background-color: #ECE5FF;
+    margin-left: 10px;
+}
+
+#manageTeam {
+    padding: 100px 0;
+}
+
+.saveextra {
+    text-align: center;
+}
+
+.saveextra .save90 {
+    padding: 5px 10px;
+    background-color: #81C43B;
+    border-radius: 50px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.saveextra a {
+    color: #35414B;
+    margin: 0 5px;
+}
+
+.saveextra a span.fa {
+    font-size: 13px;
+}
+
+#manageTeam h2 {
+    width: 760px;
+    margin: 30px auto;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+
+}
+
+#manageTeam p {
+    width: 505px;
+    margin: auto;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #4E5A65;
+}
+.registration {
+    text-align: center;
+}
+
+
